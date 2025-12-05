@@ -203,7 +203,7 @@ h2 {
     }
 
     .envelope-container.open .letter {
-    transform: translate(-50%, -90px) scaleY(1);
+    transform: translate(-50%, -150px) scaleY(1);
     }
     
 }
