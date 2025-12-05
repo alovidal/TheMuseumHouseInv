@@ -1,7 +1,8 @@
 html {
     -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    scroll-behavior: smooth;
 }
-
 
 /* ====== GENERAL ====== */
 body {
@@ -10,8 +11,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     margin: 0;
+}
+
+img {
+    image-rendering: auto;
+    max-width: 100%;
 }
 
 /* ====== CONTENEDOR ====== */
