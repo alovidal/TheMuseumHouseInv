@@ -1,3 +1,8 @@
+html {
+    -webkit-text-size-adjust: 100%;
+}
+
+
 /* ====== GENERAL ====== */
 body {
     font-family: 'Cormorant Garamond', serif;
@@ -35,7 +40,7 @@ body {
 }
 
 .envelope-container.open .envelope {
-    transform: translateY(-220px) scale(1.02);
+    transform: translateY(-250px) scale(1.02);
 }
 
 
@@ -197,13 +202,9 @@ h2 {
     }
 
     .photo {
-        width: 180px;
+        width: 130px;
         right: 12px;
-        bottom: -130px;
-    }
-
-    .envelope-container.open .letter {
-    transform: translate(-50%, -150px) scaleY(1);
+        bottom: 18px;
     }
     
 }
