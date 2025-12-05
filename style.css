@@ -197,8 +197,13 @@ h2 {
     }
 
     .photo {
-        width: 130px;
+        width: 220px;
         right: 12px;
-        bottom: 18px;
+        bottom: -130px;
     }
+
+    .envelope-container.open .letter {
+    transform: translate(-50%, -90px) scaleY(1);
+    }
+    
 }
