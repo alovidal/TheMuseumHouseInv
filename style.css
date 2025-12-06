@@ -191,6 +191,10 @@ h2 {
         padding: 28px 20px 40px;
     }
 
+    .envelope-container.open .letter {
+        transform: translate(-50%, -110px) scaleY(1);
+    }
+
     h2 {
         font-size: 1.7rem;
     }
@@ -210,7 +214,7 @@ h2 {
     .photo {
         width: 130px;
         right: 12px;
-        bottom: 18px;
+        bottom: 2px;
     }
     
 }
