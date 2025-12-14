@@ -258,6 +258,29 @@ h2 {
     color: #3b2f19;
 }
 
+/* ====== CRÉDITOS TÉCNICOS ====== */
+.creditos-tecnicos {
+    margin-top: 24px;
+    padding-top: 16px;
+    border-top: 1px solid rgba(59, 47, 25, 0.3);
+    text-align: center;
+    color: #3b2f19;
+}
+
+.creditos-tecnicos h3 {
+    margin: 14px 0 4px;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.creditos-tecnicos p {
+    margin: 0 0 8px;
+    font-size: 1.15rem;
+    line-height: 1.4;
+    opacity: 0.95;
+}
+
+
 /* ====== RESPONSIVE ====== */
 @media (max-width: 600px) {
 
